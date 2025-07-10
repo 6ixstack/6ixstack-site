@@ -256,32 +256,6 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-              <div class="team-card" onclick="openModal('moulik')">
-                <div class="team-image">
-                  <div class="team-avatar">
-                    <img src="<%= require('./assets/images/moulikpicture.jpg') %>" alt="Moulik Gaglani">
-                  </div>
-                </div>
-                <div class="team-content">
-                  <h2 class="member-name">Moulik Gaglani</h2>
-                  <p class="member-position">Cloud Ops & Security</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-              <div class="team-card" onclick="openModal('huzaifa')">
-                <div class="team-image">
-                  <div class="team-avatar">
-                    <img src="<%= require('./assets/images/huzaifa_image.jpg') %>" alt="Huzaifa Galely">
-                  </div>
-                </div>
-                <div class="team-content">
-                  <h2 class="member-name">Huzaifa Galely</h2>
-                  <p class="member-position">Technical Lead - Backend Solutions</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -426,52 +400,7 @@
     </div>
   </div>
 
-  <div id="moulik-modal" class="modal">
-    <div class="modal-content">
-      <span class="close-modal" onclick="closeModal('moulik')">&times;</span>
-      <div class="modal-header">
-        <div class="modal-avatar">
-          <img src="<%= require('./assets/images/moulikpicture.jpg') %>" alt="Moulik Gaglani">
-        </div>
-        <div class="modal-title">
-          <h2>Moulik Gaglani</h2>
-          <p>Technical Lead</p>
-        </div>
-      </div>
-      <div class="modal-body">
-        <p>Moulik is a passionate tech leader with expertise in full-stack development, cloud architecture, and AI solutions. With experience at leading tech companies, he brings technical excellence and innovative problem-solving to every project.</p>
-      </div>
-      <div class="modal-social">
-        <a href="https://www.linkedin.com/in/moulikgaglani"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-  </div>
-
-  <div id="huzaifa-modal" class="modal">
-    <div class="modal-content">
-      <span class="close-modal" onclick="closeModal('huzaifa')">&times;</span>
-      <div class="modal-header">
-        <div class="modal-avatar">
-          <img src="<%= require('./assets/images/huzaifa_image.jpg') %>" alt="Huzaifa Galely">
-        </div>
-        <div class="modal-title">
-          <h2>Huzaifa Galely</h2>
-          <p>Technical Lead</p>
-        </div>
-      </div>
-      <div class="modal-body">
-        <p>Huzaifa is a tech enthusiast who focuses on operationalizing features. With experience primarily in backend systems, he brings a unique focus on operations to ensure reliability and accessibility of client services.</p>
-        <p>Huzaifa enjoys the outdoors! Hiking camping or just being out in nature.</p>
-        <p>Huzaifa graduated from the University of Waterloo with a Bachelors in Systems Design Engineering.</p>
-      </div>
-      <div class="modal-social">
-        <a href="https://www.linkedin.com/in/hgalely/"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-  </div>
-
   <footer id="footer"></footer>
-
   <script>
     function openModal(memberId) {
       const modal = document.getElementById(`${memberId}-modal`);
