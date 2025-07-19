@@ -3,14 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FAQ - 6ixStack Solutions</title>
+  <title>FAQ - Software Development Questions Answered | 6ixStack Solutions</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
+  <!-- Enhanced SEO Meta Tags -->
+  <meta name="description" content="Get answers to frequently asked questions about 6ixStack Solutions' custom software development, pricing, timelines, and technology services for small businesses. Expert answers to help you make informed decisions.">
+  <meta name="keywords" content="software development FAQ, custom software questions, pricing FAQ, technology consulting questions, small business software FAQ, development timeline, tech support questions">
+  <meta name="author" content="6ixStack Solutions Team">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://www.6ixstack.com/faq.html">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.6ixstack.com/faq.html">
+  <meta property="og:title" content="Software Development FAQ - Questions Answered | 6ixStack Solutions">
+  <meta property="og:description" content="Find answers to common questions about custom software development, pricing, timelines, and technology services for small businesses.">
+  <meta property="og:image" content="https://www.6ixstack.com/assets/images/logo.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="6ixStack Solutions">
+  <meta property="og:locale" content="en_CA">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://www.6ixstack.com/faq.html">
+  <meta name="twitter:title" content="Software Development FAQ - Questions Answered | 6ixStack Solutions">
+  <meta name="twitter:description" content="Find answers to common questions about custom software development, pricing, timelines, and technology services.">
+  <meta name="twitter:image" content="https://www.6ixstack.com/assets/images/logo.png">
+  
+  <!-- Preconnect to external domains -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <meta name="description" content="Find answers to frequently asked questions about 6ixStack Solutions' services, pricing, and how we can help your business grow.">
-  
-  <!-- Logo for Google Search -->
-  <meta property="og:image" content="<%= require('./assets/images/logo.png') %>">
   <style>
     /* Hero section styles */
     .faq-hero {
@@ -166,11 +193,90 @@
       color: var(--gray-500);
     }
   </style>
+
+  <!-- FAQ Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What types of businesses do you work with?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We work with small and medium-sized businesses across various industries, including retail, healthcare, professional services, manufacturing, and more. Our solutions are tailored to address the specific challenges and goals of each business we work with."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a typical project cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Project costs vary based on scope, complexity, and specific requirements. We provide transparent pricing and work with you to develop solutions that fit your budget. Our initial consultation is free, during which we'll discuss your needs and provide a detailed estimate for your project."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a typical project take to complete?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Project timelines depend on scope and complexity. Small projects might take a few weeks, while comprehensive solutions can take several months. We use agile methodologies to deliver value incrementally, allowing you to see progress throughout the project lifecycle."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide ongoing support after project completion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we offer various support and maintenance packages to ensure your solution continues to perform optimally. These can include regular updates, monitoring, troubleshooting, and enhancement requests. We'll work with you to determine the best support option for your needs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What technologies do you work with?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We work with a wide range of modern technologies, including but not limited to JavaScript/TypeScript, React, Vue, Angular, Node.js, Python, .NET, AWS, Azure, Google Cloud, and various database technologies. We select the most appropriate technology stack based on your specific requirements rather than forcing a one-size-fits-all approach."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Frequently Asked Questions",
+    "description": "Common questions and answers about 6ixStack Solutions' software development services",
+    "url": "https://www.6ixstack.com/faq.html",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "6ixStack Solutions",
+      "url": "https://www.6ixstack.com"
+    },
+    "about": {
+      "@type": "Organization",
+      "name": "6ixStack Solutions"
+    }
+  }
+  </script>
 </head>
 <body>
   <header id="header"></header>
 
-  <main>
+  <!-- Breadcrumb Navigation -->
+  <nav aria-label="Breadcrumb" class="breadcrumb-container bg-light py-2 d-none d-md-block">
+    <div class="container">
+      <ol class="breadcrumb mb-0 small">
+        <li class="breadcrumb-item"><a href="/" aria-label="Home">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+      </ol>
+    </div>
+  </nav>
+
+  <main role="main">
     <!-- FAQ Hero Section -->
     <section class="faq-hero">
       <div class="container text-center">
